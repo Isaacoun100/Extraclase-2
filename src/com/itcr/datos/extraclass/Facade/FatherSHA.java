@@ -16,7 +16,7 @@ public class FatherSHA {
      * claiming no rights nor ownership over the source code in this.
      *
      * this method frm the father class receives the text to encrypt and the format to encrypt this in.
-     * @param text to be encrypted by the algorythm.
+     * @param text to be encrypted by the algorithm.
      * @param encryptionType string format for the encryption type, either SHA or SHA-256.
      * @return encrypted text in the previously set encryption type.
      */

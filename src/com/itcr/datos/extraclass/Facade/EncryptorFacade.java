@@ -9,9 +9,10 @@ public class EncryptorFacade {
      * the retrievable article: https://examples.javacodegeeks.com/core-java/java-facade-design-pattern-example/
      * by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada,
      * claiming no rights nor ownership over the source code in this method.
+     *
      * @param type : client input for desired encryption output.
      * @param text : client input of text that must be encrypted.
-     * @return encrypted output in the desired encryption algorythm.
+     * @return encrypted output in the desired encryption algorithm.
      */
     public String encrypt(String type, String text) {
         String hash = "";

@@ -12,8 +12,8 @@ public class MD5Encryptor {
      * claiming no rights nor ownership over the source code in this method.
      *
      * this method takes the text sent by the client to the facade and encrypts it
-     * @param text
-     * @return
+     * @param text the desired to-be-encrypted text that facade gives to the method, coming from the user.
+     * @return encrypted text in MD5 format.
      */
     public String encrypt(@NotNull String text) {
         String hash = "";
