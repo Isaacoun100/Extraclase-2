@@ -28,7 +28,6 @@ public class Currency implements Target{
         return this.newBank.getTotalColones()/570;
     }
 
-    //
 
     /**
      * This method will receive the amount in dollars the user wants to withdraw from the CostaRicaBank
