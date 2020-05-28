@@ -1,16 +1,17 @@
 package com.itcr.datos.extraclass.Facade;
-/*
-The implementation of this class below is based on
-the retrievable article on: https://examples.javacodegeeks.com/core-java/java-facade-design-pattern-example/
-by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada, claiming no rights nor ownership over the source code in this class.
- */
+
 import org.jetbrains.annotations.NotNull;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 public class MD5Encryptor {
 
     /**
+     *The implementation of this code  is based on
+     * the retrievable article on: https://examples.javacodegeeks.com/core-java/java-facade-design-pattern-example/
+     * by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada
+     * claiming no rights nor ownership over the source code in this method.
      *
+     * this method takes the text sent by the client to the facade and encrypts it
      * @param text
      * @return
      */

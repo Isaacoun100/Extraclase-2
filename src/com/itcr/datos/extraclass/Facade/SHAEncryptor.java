@@ -7,9 +7,9 @@ by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada, cla
 import org.jetbrains.annotations.NotNull;
 public class SHAEncryptor extends  FatherSHA{
     /**
-     *
-     * @param text
-     * @return
+     * this method receives the input text and encrypts it
+     * @param text the same input that the client gave to facade, sent by facade to this method
+     * @return encrypted text in SHA format.
      */
     public String encrypt(@NotNull String text) {
         return encryptText(text,"SHA");

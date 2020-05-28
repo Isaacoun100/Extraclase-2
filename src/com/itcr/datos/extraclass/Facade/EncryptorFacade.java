@@ -1,16 +1,17 @@
 package com.itcr.datos.extraclass.Facade;
 /*
-The implementation of this class below is based on
-the retrievable article on: https://examples.javacodegeeks.com/core-java/java-facade-design-pattern-example/
-by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada, claiming no rights nor ownership over the source code in this class.
+
  */
 public class EncryptorFacade {
 
     /**
-     *
-     * @param type
-     * @param text
-     * @return
+     *The implementation of this method is based on
+     * the retrievable article: https://examples.javacodegeeks.com/core-java/java-facade-design-pattern-example/
+     * by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada,
+     * claiming no rights nor ownership over the source code in this method.
+     * @param type : client input for desired encryption output.
+     * @param text : client input of text that must be encrypted.
+     * @return encrypted output in the desired encryption algorythm.
      */
     public String encrypt(String type, String text) {
         String hash = "";

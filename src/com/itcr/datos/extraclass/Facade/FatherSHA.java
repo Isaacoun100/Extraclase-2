@@ -10,10 +10,15 @@ import java.security.NoSuchAlgorithmException;
 public class FatherSHA {
 
     /**
+     * The implementation of this method below is based on
+     * the retrievable article on: https://examples.javacodegeeks.com/core-java/java-facade-design-pattern-example/
+     * by author Abhishek Kothari. Adapted and modified for this assignment by Alejandro Quesada
+     * claiming no rights nor ownership over the source code in this.
      *
-     * @param text
-     * @param encryptionType
-     * @return
+     * this method frm the father class receives the text to encrypt and the format to encrypt this in.
+     * @param text to be encrypted by the algorythm.
+     * @param encryptionType string format for the encryption type, either SHA or SHA-256.
+     * @return encrypted text in the previously set encryption type.
      */
     protected String encryptText(String text, String encryptionType){
         String hash = "";

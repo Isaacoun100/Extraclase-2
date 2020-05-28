@@ -1,14 +1,15 @@
 package com.itcr.datos.extraclass.client;
 import com.itcr.datos.extraclass.Facade.EncryptorFacade;
-/*
-The implementation of this class below is based on
-the retrievable article on: https://examples.javacodegeeks.com/core-java/java-facade-design-pattern-example/
-by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada, claiming no rights nor ownership over the source code in this class.
- */
 public class Client {
     /**
+     * The implementation of this Class is based on
+     * the retrievable article on: https://examples.javacodegeeks.com/core-java/java-facade-design-pattern-example/
+     * by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada
+     * claiming no rights nor ownership over the source code in this method.
      *
+     * This method represents the client's requests for text encryption, sent to the facade class in the Facade package.
      * @param args
+     *
      */
     public static void main(String[] args) {
 
