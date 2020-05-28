@@ -1,7 +1,4 @@
 package com.itcr.datos.extraclass.Facade;
-/*
- */
-import org.jetbrains.annotations.NotNull;
 
 public class SHA256 extends FatherSHA{
     /**
@@ -10,11 +7,11 @@ public class SHA256 extends FatherSHA{
      * by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada
      * claiming no rights nor ownership over the source code in this method.
      *
-     * this method receives the input text and encrypts it
+     * this method receives the input text and encrypts it, implementing the inherited method.
      * @param text sent to the method by the facade implementation.
      * @return encrypted text in SHA-256 format.
      */
-    public String encrypt(@NotNull String text) {
+    public String encrypt(String text) {
         return encryptText(text,"SHA-256");
     }
 }
