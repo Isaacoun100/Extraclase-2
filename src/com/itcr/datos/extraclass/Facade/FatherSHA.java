@@ -1,6 +1,6 @@
 package com.itcr.datos.extraclass.Facade;
 /*
-Student created this class as a way to redue the code duplication in the SHA and SHA256 encryptors. These had 7 lines of code
+Student created this class as a way to reduce the code duplication in the SHA and SHA256 encryptors. These had 7 lines of code
 that only varied in one entry argument, therefore decided to make them inherit a method from this class, and for this method
 to receive the desired encryption type as an entry argument.
  */
