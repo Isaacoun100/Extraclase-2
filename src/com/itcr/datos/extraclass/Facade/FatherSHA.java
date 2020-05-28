@@ -9,6 +9,12 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 public class FatherSHA {
 
+    /**
+     *
+     * @param text
+     * @param encryptionType
+     * @return
+     */
     protected String encryptText(String text, String encryptionType){
         String hash = "";
         try {

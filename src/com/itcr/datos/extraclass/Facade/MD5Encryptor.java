@@ -8,6 +8,12 @@ import org.jetbrains.annotations.NotNull;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 public class MD5Encryptor {
+
+    /**
+     *
+     * @param text
+     * @return
+     */
     public String encrypt(@NotNull String text) {
         String hash = "";
         try {

@@ -6,11 +6,16 @@ the retrievable article on: https://examples.javacodegeeks.com/core-java/java-fa
 by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada, claiming no rights nor ownership over the source code in this class.
  */
 public class Client {
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
-        //TODO: change this string to the desired one to encrypt when showing the example to an audience.
-        String myText = "Encrypt this text";
+        //change this string to the desired one to encrypt when showing the example to an audience.
+        String myText = "sample text";
         EncryptorFacade e= new EncryptorFacade();
+        System.out.println(myText + " is being encrypted...");
         System.out.println("MD5 encryption");
         System.out.println(e.encrypt("MD5", myText));
         System.out.println("SHA encryption");

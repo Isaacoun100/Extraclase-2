@@ -6,7 +6,11 @@ by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada, cla
  */
 import org.jetbrains.annotations.NotNull;
 public class SHAEncryptor extends  FatherSHA{
-
+    /**
+     *
+     * @param text
+     * @return
+     */
     public String encrypt(@NotNull String text) {
         return encryptText(text,"SHA");
     }
