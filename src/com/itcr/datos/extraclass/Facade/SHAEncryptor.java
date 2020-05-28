@@ -2,14 +2,15 @@ package com.itcr.datos.extraclass.Facade;
 /*
 The implementation of this class below is based on
 the retrievable article on: https://examples.javacodegeeks.com/core-java/java-facade-design-pattern-example/
-by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada, claiming no rights over the source code in this class.
+by author Abhishek Kothari. Adapted to this assignment by Alejandro Quesada, claiming no rights nor ownership over the source code in this class.
  */
+import org.jetbrains.annotations.NotNull;
+
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-
 public class SHAEncryptor {
-    public String encrypt(String text) {
+    public String encrypt(@NotNull String text) {
         String hash = "";
         try {
             MessageDigest digest = MessageDigest.getInstance("SHA");
